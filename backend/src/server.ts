@@ -1,0 +1,9 @@
+export default app;
+
+import app from './app';
+
+const PORT = 3333;
+
+app.listen(PORT, () => {
+  console.log(`Servidor rodando em http://localhost:${PORT}`);
+});
