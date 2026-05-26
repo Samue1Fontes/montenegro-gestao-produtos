@@ -1,5 +1,3 @@
-export default app;
-
 import app from './app';
 
 const PORT = 3333;
