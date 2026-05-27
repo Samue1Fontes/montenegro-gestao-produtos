@@ -17,6 +17,9 @@ COPY . .
 # Compila o TypeScript para JavaScript
 RUN npm run build
 
+# Copia o products.json para dentro da pasta dist após o build
+RUN cp -r src/data dist/data
+
 # Expõe a porta que o backend usa
 EXPOSE 3333
 
