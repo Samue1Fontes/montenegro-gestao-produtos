@@ -5,7 +5,14 @@ import productRoutes from './routes/product.routes';
 const app = express();
 
 // Middlewares globais
-app.use(cors());
+app.use(cors({
+  origin: [
+    'http://localhost:5173',
+    // URL do Vercel
+    'https://montenegro-gestao-produtos.vercel.app',
+  ],
+}));
+
 app.use(express.json());
 
 // Rota de verificação de saúde do servidor
@@ -18,3 +25,4 @@ app.get('/health', (req, res) => {
 app.use('/products', productRoutes);
 
 export default app;
+
