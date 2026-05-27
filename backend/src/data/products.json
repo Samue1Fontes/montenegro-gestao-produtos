@@ -1,0 +1,182 @@
+[
+  {
+    "id": "1700000000002",
+    "name": "Mouse Logitech MX Master",
+    "description": "Mouse sem fio ergonômico com scroll horizontal",
+    "price": 459.9,
+    "category": "Periféricos",
+    "active": true,
+    "createdAt": "2024-01-16T14:30:00.000Z"
+  },
+  {
+    "id": "1700000000003",
+    "name": "Teclado Mecânico Redragon",
+    "description": "Teclado mecânico com switch azul e iluminação RGB",
+    "price": 289.9,
+    "category": "Periféricos",
+    "active": false,
+    "createdAt": "2024-01-17T09:15:00.000Z"
+  },
+  {
+    "id": "1779767240086",
+    "name": "Monitor LG 24'",
+    "description": "Monitor Full HD IPS 24 polegadas",
+    "price": 899.9,
+    "category": "Eletrônicos",
+    "active": true,
+    "createdAt": "2026-05-26T03:47:20.086Z"
+  },
+  {
+    "id": "1700000000004",
+    "name": "Headset HyperX Cloud II",
+    "description": "Headset gamer com som surround 7.1",
+    "price": 399.9,
+    "category": "Áudio",
+    "active": true,
+    "createdAt": "2024-01-18T11:20:00.000Z"
+  },
+  {
+    "id": "1700000000005",
+    "name": "Notebook Dell Inspiron",
+    "description": "Notebook Intel i5 com 16GB RAM e SSD 512GB",
+    "price": 4299.9,
+    "category": "Computadores",
+    "active": true,
+    "createdAt": "2024-01-19T08:10:00.000Z"
+  },
+  {
+    "id": "1700000000006",
+    "name": "Webcam Logitech C920",
+    "description": "Webcam Full HD para videoconferências",
+    "price": 349.9,
+    "category": "Periféricos",
+    "active": false,
+    "createdAt": "2024-01-20T16:45:00.000Z"
+  },
+  {
+    "id": "1700000000007",
+    "name": "SSD Kingston 1TB",
+    "description": "SSD NVMe de alta velocidade",
+    "price": 519.9,
+    "category": "Hardware",
+    "active": true,
+    "createdAt": "2024-01-21T13:00:00.000Z"
+  },
+  {
+    "id": "1700000000008",
+    "name": "Cadeira Gamer ThunderX3",
+    "description": "Cadeira ergonômica reclinável",
+    "price": 1199.9,
+    "category": "Móveis",
+    "active": true,
+    "createdAt": "2024-01-22T10:30:00.000Z"
+  },
+  {
+    "id": "1700000000009",
+    "name": "Mesa Digitalizadora Wacom",
+    "description": "Mesa digitalizadora para design gráfico",
+    "price": 699.9,
+    "category": "Design",
+    "active": true,
+    "createdAt": "2024-01-23T15:25:00.000Z"
+  },
+  {
+    "id": "1700000000010",
+    "name": "Caixa de Som JBL Flip",
+    "description": "Caixa bluetooth portátil resistente à água",
+    "price": 549.9,
+    "category": "Áudio",
+    "active": true,
+    "createdAt": "2024-01-24T18:40:00.000Z"
+  },
+  {
+    "id": "1700000000011",
+    "name": "Impressora Epson EcoTank",
+    "description": "Impressora multifuncional tanque de tinta",
+    "price": 1299.9,
+    "category": "Escritório",
+    "active": true,
+    "createdAt": "2024-01-25T09:50:00.000Z"
+  },
+  {
+    "id": "1700000000012",
+    "name": "Smartphone Samsung Galaxy S23",
+    "description": "Smartphone Android com câmera tripla",
+    "price": 3899.9,
+    "category": "Celulares",
+    "active": true,
+    "createdAt": "2024-01-26T12:15:00.000Z"
+  },
+  {
+    "id": "1700000000013",
+    "name": "Hub USB-C Baseus",
+    "description": "Adaptador USB-C com múltiplas portas",
+    "price": 179.9,
+    "category": "Acessórios",
+    "active": false,
+    "createdAt": "2024-01-27T14:05:00.000Z"
+  },
+  {
+    "id": "1700000000014",
+    "name": "Roteador TP-Link Archer",
+    "description": "Roteador dual band Wi-Fi 6",
+    "price": 649.9,
+    "category": "Redes",
+    "active": true,
+    "createdAt": "2024-01-28T17:35:00.000Z"
+  },
+  {
+    "id": "1700000000015",
+    "name": "Microfone Fifine K669B",
+    "description": "Microfone condensador USB para streaming",
+    "price": 249.9,
+    "category": "Áudio",
+    "active": true,
+    "createdAt": "2024-01-29T20:10:00.000Z"
+  },
+  {
+    "id": "1700000000016",
+    "name": "Notebook MacBook Air M2",
+    "description": "Notebook Apple com chip M2 e tela Retina",
+    "price": 8999.9,
+    "category": "Computadores",
+    "active": true,
+    "createdAt": "2024-02-01T09:00:00.000Z"
+  },
+  {
+    "id": "1700000000017",
+    "name": "Mousepad Gamer Extra Grande",
+    "description": "Mousepad com superfície speed e base antiderrapante",
+    "price": 89.9,
+    "category": "Periféricos",
+    "active": true,
+    "createdAt": "2024-02-02T10:30:00.000Z"
+  },
+  {
+    "id": "1700000000018",
+    "name": "HD Externo Seagate 2TB",
+    "description": "Armazenamento portátil USB 3.0",
+    "price": 479.9,
+    "category": "Hardware",
+    "active": false,
+    "createdAt": "2024-02-03T11:45:00.000Z"
+  },
+  {
+    "id": "1700000000019",
+    "name": "Monitor Ultrawide Samsung",
+    "description": "Monitor 34 polegadas UltraWide WQHD",
+    "price": 2499.9,
+    "category": "Eletrônicos",
+    "active": true,
+    "createdAt": "2024-02-04T13:20:00.000Z"
+  },
+  {
+    "id": "1700000000020",
+    "name": "Fonte Corsair 750W",
+    "description": "Fonte modular 80 Plus Gold",
+    "price": 699.9,
+    "category": "Hardware",
+    "active": true,
+    "createdAt": "2024-02-05T15:10:00.000Z"
+  }
+]
