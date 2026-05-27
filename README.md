@@ -11,6 +11,8 @@ Sistema de gerenciamento de produtos desenvolvido como desafio técnico para a v
 ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+![Render](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=black)
 
 </div>
 
@@ -46,7 +48,23 @@ Aplicação fullstack completa para gerenciamento de produtos com operações de
 |---|---|
 | Docker | Containerização da aplicação |
 | Docker Compose | Orquestração dos containers |
+| Render | Hospedagem do backend em produção |
+| Vercel | Hospedagem do frontend em produção |
 
+---
+
+## 🌍 Deploy
+
+A aplicação foi colocada em produção utilizando **Render** para o backend e **Vercel** para o frontend, e está disponível online para acesso e demonstração.
+
+| Serviço | Plataforma | URL |
+|---|---|---|
+| **Frontend** | Vercel | https://montenegro-gestao-produtos.vercel.app |
+| **Backend** | Render | https://mgp-backend-tijn.onrender.com |
+
+> ⚠️ O backend está hospedado no plano gratuito do Render. Após inatividade, pode demorar até 50 segundos para responder na primeira requisição.
+
+> ⚠️ Os dados são persistidos em arquivo JSON dentro do container. Ao realizar um novo deploy, os dados voltam ao estado inicial — a aplicação em produção serve apenas para fins de demonstração.
 
 ---
 
@@ -154,7 +172,13 @@ http://localhost:5173
 
 ## 🌐 Como Acessar a Aplicação
 
-Com a aplicação rodando, acesse `http://localhost:5173`.
+A aplicação pode ser acessada de três formas:
+
+| Forma | URL | Requisito |
+|---|---|---|
+| **Produção** | https://montenegro-gestao-produtos.vercel.app | Nenhum |
+| **Docker** | http://localhost:5173 | Docker Desktop rodando |
+| **Local** | http://localhost:5173 | Backend e frontend rodando |
 
 A aplicação possui três seções:
 
